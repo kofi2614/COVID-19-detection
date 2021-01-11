@@ -28,16 +28,6 @@ conada env create -f env.yml
 python dataPrep.py
 ```
 
-* To convert the data into CSV in spark:
-```
-python sparkETL_zepplin.py
-```
-
-* To set up AWS:
-```
-./AWSCLICreateEMRcluster.sh
-./bootstrap.sh
-```
 
 * To train the base model:
 ```
